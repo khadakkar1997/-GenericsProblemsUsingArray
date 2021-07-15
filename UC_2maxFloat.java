@@ -1,6 +1,6 @@
 package GenericsProblemsUsingArray;
 
-public class UC_1maxInteger {
+public class UC_2maxFloat {
 	
 	// to determine largest of 3 Comparable objects
 		public static <M extends Comparable<M>> M maximum(M x, M y, M z) {
@@ -16,8 +16,7 @@ public class UC_1maxInteger {
 		} // end method maximum
 
 		public static void main(String args[]) {
-			System.out.printf("Maximum of %d, %d and %d is %d\n\n", 1, 2, 3, maximum(1, 2, 3));
-
+			System.out.printf("Maximum of %.1f, %.1f and %.1f is %.1f\n\n", 5.4, 6.8, 7.7, maximum(5.4, 6.8, 7.7));
 		}
 
 }
