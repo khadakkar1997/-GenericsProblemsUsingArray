@@ -1,4 +1,4 @@
-package GenericsProblemsUsingArray;
+package GenericsProblems;
 
 public class UC_3maxString {
 	
